@@ -1,0 +1,105 @@
+/* 
+* Estilos CSS
+* Description: Estilos del Formulario de Contacto.
+* Version: 1.0
+* Author: 2021 - Pablo Garay
+* https://github.com/PabloGarayOk/Formulario-de-contacto.git
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    line-height: inherit;
+}
+
+body {
+    color: #222;
+    background-size: 100vw 100vh;
+    margin: 0;
+    font-family: century Gothic;
+    background-attachment: fixed;
+}
+
+form {
+    width: 580px;
+    margin: auto;
+    /*background: rgba(0, 0, 0, 0.4);*/
+     background: rgb(157,113,228);
+background: linear-gradient(31deg, rgba(157,113,228,0.90238093528427) 0%, rgba(214,93,177,1) 12%, rgba(255,111,145,1) 32%, rgba(255,150,113,1) 53%, rgba(255,199,95,1) 84%, rgba(249,248,113,1) 100%); 
+    /*background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+
+}
+
+h1 {
+    color: #743dcb; /*#38337d #845ec2*/
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: century Gothic;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 135px;
+    max-height: 235px;
+    max-width: 100%;
+    min-width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #845ec2; /*#544F95*/
+    color: #fff;
+    padding: 17px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #743dcb; /* #38337d #845ec2 #d65db1 #6229bd*/
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 2px 3px rgba(240,240,240,1);
+       -moz-box-shadow: 0px 0px 2px 3px rgba(240,240,240,1);
+            box-shadow: 0px 0px 2px 3px rgba(240,240,240,1);
+}
+
+button {
+    -webkit-transition: background 0.3s 0s ease;
+       -moz-transition: background 0.3s 0s ease;
+         -o-transition: background 0.3s 0s ease;
+            transition: background 0.3s 0s ease;
+}
+
+
+@media (max-width:615px) {
+    form{
+        width: 95%;
+    }
+}
